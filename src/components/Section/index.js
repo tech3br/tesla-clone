@@ -1,26 +1,27 @@
 import React from "react";
 import * as S from "./styles";
 
-function Section() {
+function Section({
+  title,
+  description,
+  leftBtnText,
+  rightBtnText,
+  backgroundImg,
+}) {
   return (
-    <S.Wrap>
+    <S.Wrap bgImage={backgroundImg}>
       <S.ItemText>
-        <h1>Model S</h1>
-        <p>Order Online for Touchless Delivery</p>
+        <h1>{title}</h1>
+        <p>{description}</p>
       </S.ItemText>
 
-      <S.ButtonGroup>
-
-        <S.LeftButton>
-          Custom Order
-        </S.LeftButton>
-
-        <S.RightButton>
-          Existing Inventory
-        </S.RightButton>
-
-      </S.ButtonGroup>
-
+      <S.Buttons>
+        <S.ButtonGroup>
+          <S.LeftButton>{leftBtnText}</S.LeftButton>
+          {rightBtnText && <S.RightButton>{rightBtnText}</S.RightButton>}
+        </S.ButtonGroup>
+        <S.DownArrow src="/images/down-arrow.svg" />
+      </S.Buttons>
     </S.Wrap>
   );
 }
