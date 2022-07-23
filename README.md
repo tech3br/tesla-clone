@@ -3,6 +3,8 @@
 ## Prints:
 
 ![image](https://user-images.githubusercontent.com/49797722/180623454-ee59c0cc-ceac-4fc6-bd2c-3a6867ac6fa9.png)
+![image](https://user-images.githubusercontent.com/49797722/180623530-9de038e2-ce4a-4bf3-b4bc-45350c88ab6e.png)
+
 
 ## Scripts Disponíveis
 
