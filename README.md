@@ -8,7 +8,7 @@
 
 No diretório do projeto, você pode executar:
 
-### `início`
+### `yarn start`
 
 Executa o aplicativo no modo de desenvolvimento.<br />
 Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo no navegador.
@@ -16,12 +16,12 @@ Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo no navega
 A página será recarregada se você fizer edições.<br />
 Você também verá erros de lint no console.
 
-### `teste`
+### `yarn test`
 
 Inicia o executor de teste no modo de relógio interativo.<br />
 Consulte a seção sobre [execução de testes](https://facebook.github.io/create-react-app/docs/running-tests) para obter mais informações.
 
-### `construção`
+### `yarn build`
 
 Compila o aplicativo para produção na pasta `build`.<br />
 Ele agrupa corretamente o React no modo de produção e otimiza a compilação para o melhor desempenho.
